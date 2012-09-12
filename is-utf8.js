@@ -1,5 +1,5 @@
 
-exports.isUtf8 = function(bytes)
+exports = module.exports = function(bytes)
 {
     var i = 0;
     while(i < bytes.length)

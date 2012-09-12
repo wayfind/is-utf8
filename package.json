@@ -4,7 +4,7 @@
   "description": "detect if a buffer is utf8 encoded.",
   "main": "is-utf8.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": "https://github.com/wayfind/is-utf8.git",
   "keywords": [
