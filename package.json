@@ -11,6 +11,9 @@
     "utf8",
     "charset"
   ],
+  "files": [
+    "is-utf8.js"
+  ],
   "author": "wayfind",
   "license": "BSD"
 }
