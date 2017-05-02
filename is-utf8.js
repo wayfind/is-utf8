@@ -5,10 +5,7 @@ exports = module.exports = function(bytes)
     while(i < bytes.length)
     {
         if(     (// ASCII
-                    bytes[i] == 0x09 ||
-                    bytes[i] == 0x0A ||
-                    bytes[i] == 0x0D ||
-                    (0x20 <= bytes[i] && bytes[i] <= 0x7E)
+                    bytes[i] <= 0x7F
                 )
           ) {
               i += 1;
