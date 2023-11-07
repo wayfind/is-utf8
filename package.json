@@ -15,5 +15,8 @@
     "is-utf8.js"
   ],
   "author": "wayfind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "*"
+  }
 }
